@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.03
+
+- Write scripts with your Claude app, no API key: the new Script Generator MCP lets Claude Desktop or Claude Code read your panels and write the lines into Gutter
+- One-click setup for it: Write script (with "Claude app via MCP") or Settings → AI apps installs the MCP and connects Claude Desktop
+- FFmpeg sets itself up: found automatically or installed in the background, nothing to click
+- Export waits for FFmpeg if it's still installing instead of failing
+- Setup walkthrough shows FFmpeg's status and has a "Use my Claude app instead" option
+- Settings → AI apps: turn the local AI bridge on or off
+
 ## v1.02
 
 - Projects tab: every project as a card with its first frame, length, script and voice progress
