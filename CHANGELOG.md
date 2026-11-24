@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.08
+
+- Chapter lists start at chapter 1 (Webtoons used to show the newest first)
+- Pick several chapters with a click (tick boxes, Select all, Clear) and import them as one video, in reading order
+- Add chapters to the project you're working on: your lines, voice, timing and edits stay, the new panels go on the end
+- Editor: the + in Media has Add chapters, which opens the project's series with chapters already in it marked
+
 ## v1.07
 
 - Exports are about 3x faster with the same quality

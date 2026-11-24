@@ -1,12 +1,12 @@
 {
-    "version": "1.07",
-    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.07/Gutter.exe",
-    "size": 65822673,
-    "sha256": "48457DE961CC0A12B7790F7A7046A8875513F25334B5EFFD7A3396907884028A",
+    "version": "1.08",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.08/Gutter.exe",
+    "size": 65831558,
+    "sha256": "D1D44DE147054BB2658412F95C79E4A60D24C7B0E381805BCF1BA1AA9A2A4EFA",
     "notes": [
-        "Exports are about 3x faster with the same quality",
-        "Captions are burned in while each piece renders, instead of re-encoding the whole video at the end (one encode instead of two, so it's slightly sharper too)",
-        "Panels are converted once instead of on every frame, and the narration track is built while the video renders",
-        "Captions now land on exactly the right frame everywhere in long videos"
+        "Chapter lists start at chapter 1 (Webtoons used to show the newest first)",
+        "Pick several chapters with a click (tick boxes, Select all, Clear) and import them as one video, in reading order",
+        "Add chapters to the project you're working on: your lines, voice, timing and edits stay, the new panels go on the end",
+        "Editor: the + in Media has Add chapters, which opens the project's series with chapters already in it marked"
     ]
 }
