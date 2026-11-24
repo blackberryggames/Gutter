@@ -1,12 +1,14 @@
 {
-    "version": "1.08",
-    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.08/Gutter.exe",
-    "size": 65831558,
-    "sha256": "D1D44DE147054BB2658412F95C79E4A60D24C7B0E381805BCF1BA1AA9A2A4EFA",
+    "version": "1.09",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.09/Gutter.exe",
+    "size": 65861679,
+    "sha256": "BD5D99881EBAAC73C1DD266D6D6BD4A1F9B72D5D826FA5A0566C66A649058D0E",
     "notes": [
-        "Chapter lists start at chapter 1 (Webtoons used to show the newest first)",
-        "Pick several chapters with a click (tick boxes, Select all, Clear) and import them as one video, in reading order",
-        "Add chapters to the project you're working on: your lines, voice, timing and edits stay, the new panels go on the end",
-        "Editor: the + in Media has Add chapters, which opens the project's series with chapters already in it marked"
+        "Check panels (timeline toolbar, or right-click a panel): finds empty strips, lone speech bubbles, several panels stuck together, thin strips and mostly-empty panels, with a one-click fix for each and Fix all",
+        "Ask your AI to double-check the panels (same AI and key as the script writer): it also spots credits pages, content warnings and cut-off characters",
+        "Your Claude app can check and fix panels too: the Gutter MCP (updated to 1.1 automatically) can remove, merge, split, crop, trim, restore and add panels",
+        "Crop / split any panel by hand, merge panels, trim empty edges, and Restore original to undo edits on a panel's image",
+        "Scale and Position X / Y sliders for each panel, so you can size and place it yourself",
+        "Better panel cutting on import: empty background strips are skipped, panels stuck together on dark or textured backgrounds are split apart, and big empty margins are trimmed"
     ]
 }

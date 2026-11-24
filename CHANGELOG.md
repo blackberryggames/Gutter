@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.09
+
+- Check panels (timeline toolbar, or right-click a panel): finds empty strips, lone speech bubbles, several panels stuck together, thin strips and mostly-empty panels, with a one-click fix for each and Fix all
+- Ask your AI to double-check the panels (same AI and key as the script writer): it also spots credits pages, content warnings and cut-off characters
+- Your Claude app can check and fix panels too: the Gutter MCP (updated to 1.1 automatically) can remove, merge, split, crop, trim, restore and add panels
+- Crop / split any panel by hand, merge panels, trim empty edges, and Restore original to undo edits on a panel's image
+- Scale and Position X / Y sliders for each panel, so you can size and place it yourself
+- Better panel cutting on import: empty background strips are skipped, panels stuck together on dark or textured backgrounds are split apart, and big empty margins are trimmed
+
 ## v1.08
 
 - Chapter lists start at chapter 1 (Webtoons used to show the newest first)
