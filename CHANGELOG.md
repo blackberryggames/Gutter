@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.04
+
+- New installer: GutterSetup.exe with a big logo, animated progress, shortcuts, and an entry in Windows Installed apps (uninstall from there)
+- Exports recover from FFmpeg crashes: a step that crashes is retried automatically, single-threaded and then on its own
+- Steadier exports: fewer FFmpeg jobs run at the same time
+- When an export fails or Gutter crashes, it can send a diagnostic report so it gets fixed (Settings → Reports to turn it off)
+- The Export failed screen says which stage stopped and has Copy details
+
 ## v1.03
 
 - Write scripts with your Claude app, no API key: the new Script Generator MCP lets Claude Desktop or Claude Code read your panels and write the lines into Gutter

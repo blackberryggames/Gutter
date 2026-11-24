@@ -1,14 +1,13 @@
 {
-    "version":  "1.03",
-    "exe":  "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.03/Gutter.exe",
-    "size":  65807243,
-    "sha256":  "15C1CE5E8E27027A419E2B04B40464DF256E656C763CFA18DB3DBD84385A5EB2",
+    "version":  "1.04",
+    "exe":  "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.04/Gutter.exe",
+    "size":  65816479,
+    "sha256":  "82591BE4530C275814412A087598B8D8D126358D4176A8FB109B28DB37BDF06D",
     "notes":  [
-                  "Write scripts with your Claude app, no API key: the new Script Generator MCP lets Claude Desktop or Claude Code read your panels and write the lines into Gutter",
-                  "One-click setup for it: Write script (with \"Claude app via MCP\") or Settings → AI apps installs the MCP and connects Claude Desktop",
-                  "FFmpeg sets itself up: found automatically or installed in the background, nothing to click",
-                  "Export waits for FFmpeg if it\u0027s still installing instead of failing",
-                  "Setup walkthrough shows FFmpeg\u0027s status and has a \"Use my Claude app instead\" option",
-                  "Settings → AI apps: turn the local AI bridge on or off"
+                  "New installer: GutterSetup.exe with a big logo, animated progress, shortcuts, and an entry in Windows Installed apps (uninstall from there)",
+                  "Exports recover from FFmpeg crashes: a step that crashes is retried automatically, single-threaded and then on its own",
+                  "Steadier exports: fewer FFmpeg jobs run at the same time",
+                  "When an export fails or Gutter crashes, it can send a diagnostic report so it gets fixed (Settings → Reports to turn it off)",
+                  "The Export failed screen says which stage stopped and has Copy details"
               ]
 }
