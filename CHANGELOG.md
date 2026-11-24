@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.06
+
+- Export no longer just shows "Getting FFmpeg ready": if FFmpeg still needs downloading, it happens inside the export screen with a progress bar, then the export starts by itself
+- The FFmpeg check at startup runs in the background, so it can't hold up the app
+- Opening Projects no longer freezes for a moment: card thumbnails load in the background
+
 ## v1.05
 
 - Fixed exports crashing at the end ("FFmpeg crashed") on PCs with an old FFmpeg installed by other apps: Gutter now ignores FFmpeg older than 7
