@@ -1,13 +1,12 @@
 {
-    "version":  "1.04",
-    "exe":  "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.04/Gutter.exe",
-    "size":  65816479,
-    "sha256":  "82591BE4530C275814412A087598B8D8D126358D4176A8FB109B28DB37BDF06D",
+    "version":  "1.05",
+    "exe":  "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.05/Gutter.exe",
+    "size":  65820092,
+    "sha256":  "190A7C9C56387C829F907E0D2C7FCB0B1F2CC267AB55CE28422AEFBC51404A04",
     "notes":  [
-                  "New installer: GutterSetup.exe with a big logo, animated progress, shortcuts, and an entry in Windows Installed apps (uninstall from there)",
-                  "Exports recover from FFmpeg crashes: a step that crashes is retried automatically, single-threaded and then on its own",
-                  "Steadier exports: fewer FFmpeg jobs run at the same time",
-                  "When an export fails or Gutter crashes, it can send a diagnostic report so it gets fixed (Settings → Reports to turn it off)",
-                  "The Export failed screen says which stage stopped and has Copy details"
+                  "Fixed exports crashing at the end (\"FFmpeg crashed\") on PCs with an old FFmpeg installed by other apps: Gutter now ignores FFmpeg older than 7",
+                  "Outdated FFmpeg is detected and replaced automatically with Gutter\u0027s own up-to-date copy",
+                  "Gutter\u0027s FFmpeg checks for a newer release about once a week and updates itself in the background",
+                  "If a transition still makes FFmpeg crash, that one cut is exported as a crossfade instead of failing the export"
               ]
 }

@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.05
+
+- Fixed exports crashing at the end ("FFmpeg crashed") on PCs with an old FFmpeg installed by other apps: Gutter now ignores FFmpeg older than 7
+- Outdated FFmpeg is detected and replaced automatically with Gutter's own up-to-date copy
+- Gutter's FFmpeg checks for a newer release about once a week and updates itself in the background
+- If a transition still makes FFmpeg crash, that one cut is exported as a crossfade instead of failing the export
+
 ## v1.04
 
 - New installer: GutterSetup.exe with a big logo, animated progress, shortcuts, and an entry in Windows Installed apps (uninstall from there)
