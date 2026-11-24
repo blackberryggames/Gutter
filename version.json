@@ -1,11 +1,12 @@
 {
-    "version":  "1.06",
-    "exe":  "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.06/Gutter.exe",
-    "size":  65821353,
-    "sha256":  "E69AD0AB6511822031F24FD2E3A4ACA2132086256AEE2DAD14829B0D081A364D",
-    "notes":  [
-                  "Export no longer just shows \"Getting FFmpeg ready\": if FFmpeg still needs downloading, it happens inside the export screen with a progress bar, then the export starts by itself",
-                  "The FFmpeg check at startup runs in the background, so it can\u0027t hold up the app",
-                  "Opening Projects no longer freezes for a moment: card thumbnails load in the background"
-              ]
+    "version": "1.07",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.07/Gutter.exe",
+    "size": 65822673,
+    "sha256": "48457DE961CC0A12B7790F7A7046A8875513F25334B5EFFD7A3396907884028A",
+    "notes": [
+        "Exports are about 3x faster with the same quality",
+        "Captions are burned in while each piece renders, instead of re-encoding the whole video at the end (one encode instead of two, so it's slightly sharper too)",
+        "Panels are converted once instead of on every frame, and the narration track is built while the video renders",
+        "Captions now land on exactly the right frame everywhere in long videos"
+    ]
 }

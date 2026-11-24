@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.07
+
+- Exports are about 3x faster with the same quality
+- Captions are burned in while each piece renders, instead of re-encoding the whole video at the end (one encode instead of two, so it's slightly sharper too)
+- Panels are converted once instead of on every frame, and the narration track is built while the video renders
+- Captions now land on exactly the right frame everywhere in long videos
+
 ## v1.06
 
 - Export no longer just shows "Getting FFmpeg ready": if FFmpeg still needs downloading, it happens inside the export screen with a progress bar, then the export starts by itself

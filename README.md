@@ -2,7 +2,7 @@
 
 Desktop editor for manhwa / manga narration videos (Windows).
 
-**Download:** [GutterSetup.exe](releases/v1.06/GutterSetup.exe) (installer, recommended) or [Gutter.exe](releases/v1.06/Gutter.exe) (portable)
+**Download:** [GutterSetup.exe](releases/v1.07/GutterSetup.exe) (installer, recommended) or [Gutter.exe](releases/v1.07/Gutter.exe) (portable)
 
 This repo hosts Gutter's releases. The app checks `version.json` when it starts and offers new versions automatically.
 See [CHANGELOG.md](CHANGELOG.md) for what changed.
