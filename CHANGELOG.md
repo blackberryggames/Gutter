@@ -1,5 +1,13 @@
 # Changelog
 
+## v1.10
+
+- New project now asks: Recap (import chapters, like before) or Empty project
+- Empty projects are a plain video editor: drag in videos (like recaps you exported) and images, put them in any order, and export them as one video
+- Videos work on the timeline with their own sound: split with S, set Trim start and Length to cut them, Volume per clip, Scale and Position to frame them
+- Transitions and captions work between videos and images, and the preview plays videos in sync
+- Media accepts MP4, MKV, MOV, WebM, AVI and M4V
+
 ## v1.09
 
 - Check panels (timeline toolbar, or right-click a panel): finds empty strips, lone speech bubbles, several panels stuck together, thin strips and mostly-empty panels, with a one-click fix for each and Fix all

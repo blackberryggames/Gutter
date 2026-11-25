@@ -1,14 +1,13 @@
 {
-    "version": "1.09",
-    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.09/Gutter.exe",
-    "size": 65861679,
-    "sha256": "BD5D99881EBAAC73C1DD266D6D6BD4A1F9B72D5D826FA5A0566C66A649058D0E",
+    "version": "1.10",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.10/Gutter.exe",
+    "size": 65868122,
+    "sha256": "5AF6EF5C26901150F583E103CCCBCD0E54227B86A292DE9B833A1A35FA7B05D4",
     "notes": [
-        "Check panels (timeline toolbar, or right-click a panel): finds empty strips, lone speech bubbles, several panels stuck together, thin strips and mostly-empty panels, with a one-click fix for each and Fix all",
-        "Ask your AI to double-check the panels (same AI and key as the script writer): it also spots credits pages, content warnings and cut-off characters",
-        "Your Claude app can check and fix panels too: the Gutter MCP (updated to 1.1 automatically) can remove, merge, split, crop, trim, restore and add panels",
-        "Crop / split any panel by hand, merge panels, trim empty edges, and Restore original to undo edits on a panel's image",
-        "Scale and Position X / Y sliders for each panel, so you can size and place it yourself",
-        "Better panel cutting on import: empty background strips are skipped, panels stuck together on dark or textured backgrounds are split apart, and big empty margins are trimmed"
+        "New project now asks: Recap (import chapters, like before) or Empty project",
+        "Empty projects are a plain video editor: drag in videos (like recaps you exported) and images, put them in any order, and export them as one video",
+        "Videos work on the timeline with their own sound: split with S, set Trim start and Length to cut them, Volume per clip, Scale and Position to frame them",
+        "Transitions and captions work between videos and images, and the preview plays videos in sync",
+        "Media accepts MP4, MKV, MOV, WebM, AVI and M4V"
     ]
 }
