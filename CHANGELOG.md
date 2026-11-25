@@ -1,5 +1,12 @@
 # Changelog
 
+## v1.11
+
+- Long exports are faster: long videos render in parts side by side instead of one at a time (a 12-minute 60 fps export went from 135s to 112s), with the same quality
+- The export bar moves smoothly and shows how much time is left
+- Importing while a project is open now adds to that project, after what's already there: Add to this project is the main button, with New project instead next to it. Your own images and folders ask which you want
+- If your disk fills up during an export, Gutter says so plainly instead of showing an FFmpeg error
+
 ## v1.10
 
 - New project now asks: Recap (import chapters, like before) or Empty project

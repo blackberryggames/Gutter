@@ -1,13 +1,12 @@
 {
-    "version": "1.10",
-    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.10/Gutter.exe",
-    "size": 65868122,
-    "sha256": "5AF6EF5C26901150F583E103CCCBCD0E54227B86A292DE9B833A1A35FA7B05D4",
+    "version": "1.11",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.11/Gutter.exe",
+    "size": 65872514,
+    "sha256": "AFCD7C3A01D3CD786B634A94B9E69A1D08F343719FF608A272B0035805218323",
     "notes": [
-        "New project now asks: Recap (import chapters, like before) or Empty project",
-        "Empty projects are a plain video editor: drag in videos (like recaps you exported) and images, put them in any order, and export them as one video",
-        "Videos work on the timeline with their own sound: split with S, set Trim start and Length to cut them, Volume per clip, Scale and Position to frame them",
-        "Transitions and captions work between videos and images, and the preview plays videos in sync",
-        "Media accepts MP4, MKV, MOV, WebM, AVI and M4V"
+        "Long exports are faster: long videos render in parts side by side instead of one at a time (a 12-minute 60 fps export went from 135s to 112s), with the same quality",
+        "The export bar moves smoothly and shows how much time is left",
+        "Importing while a project is open now adds to that project, after what's already there: Add to this project is the main button, with New project instead next to it. Your own images and folders ask which you want",
+        "If your disk fills up during an export, Gutter says so plainly instead of showing an FFmpeg error"
     ]
 }
