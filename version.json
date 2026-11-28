@@ -1,12 +1,11 @@
 {
-    "version": "1.11",
-    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.11/Gutter.exe",
-    "size": 65872514,
-    "sha256": "AFCD7C3A01D3CD786B634A94B9E69A1D08F343719FF608A272B0035805218323",
+    "version": "1.12",
+    "exe": "https://raw.githubusercontent.com/blackberryggames/Gutter/main/releases/v1.12/Gutter.exe",
+    "size": 65876530,
+    "sha256": "C01E2F8BA8539FC7425845395CC04B6946142406C9DD306C2D2BD4BD4AE83C3F",
     "notes": [
-        "Long exports are faster: long videos render in parts side by side instead of one at a time (a 12-minute 60 fps export went from 135s to 112s), with the same quality",
-        "The export bar moves smoothly and shows how much time is left",
-        "Importing while a project is open now adds to that project, after what's already there: Add to this project is the main button, with New project instead next to it. Your own images and folders ask which you want",
-        "If your disk fills up during an export, Gutter says so plainly instead of showing an FFmpeg error"
+        "MangaDex covers show again in search results and on the series page",
+        "MangaDex results use the English title (Solo Leveling instead of Na Honjaman Level-Up)",
+        "Series that MangaDex doesn't host in English (licensed, with chapters only on the official site) are marked in the results, and the series page says where the English chapters are instead of showing an empty list"
     ]
 }

@@ -1,5 +1,11 @@
 # Changelog
 
+## v1.12
+
+- MangaDex covers show again in search results and on the series page
+- MangaDex results use the English title (Solo Leveling instead of Na Honjaman Level-Up)
+- Series that MangaDex doesn't host in English (licensed, with chapters only on the official site) are marked in the results, and the series page says where the English chapters are instead of showing an empty list
+
 ## v1.11
 
 - Long exports are faster: long videos render in parts side by side instead of one at a time (a 12-minute 60 fps export went from 135s to 112s), with the same quality
